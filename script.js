@@ -8,11 +8,11 @@ var codeSymbol = [33, 47];
 
 //Adding EventListener to generate button
 
-document.querySelector("#generate").addEventListener("click", () =>{
+document.querySelector("#generate").addEventListener("click", () => {
 
 //Setting variables and linking to corresponding ids in html file
 
-var length = document.querySelector("#length").Value;
+var length = document.querySelector("#length").value;
 var upper = document.querySelector("#uppercase").checked;
 var lower = document.querySelector("#lowercase").checked;
 var numbers = document.querySelector("#numbers").checked;
@@ -24,42 +24,34 @@ var randSelector = [];
 var password = [];
 
 if (upper === true) {
-        for (var i = codeUpper[0]; i <= codeUpper[1]; i++) {
-          randSelector.push(i);
-        }
+  for (var i = codeUpper[0]; i <= codeUpper[1]; i++) {
+  randSelector.push(i);
+  }
 }
 
 if (lower === true) {
   for (var i = codeLower[0]; i <= codeLower[1]; i++) {
-    randSelector.push(i);
+  randSelector.push(i);
   }
 }
 
 if (numbers === true) {
   for (var i = codeNum[0]; i <= codeNum[1]; i++) {
-    randSelector.push(i);
+  randSelector.push(i);
   }
 }
 
 if (symbols === true) {
   for (var i = codeSymbol[0]; i <= codeSymbol[1]; i++) {
-    randSelector.push(i);
+  randSelector.push(i);
   }
 }
  
-//console.log(randSelector);
+//Adding loop to generate final password
 
+for (var i = 0; i < length; i++) {
+  password.push(String.fromCharCode(randSelector[Math.floor(Math.random()*randSelector.length)]))
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+results.textContent=password.join("");
 })
