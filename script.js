@@ -6,3 +6,20 @@ var codeLower = [97, 122];
 var codeNum = [48, 57];
 var codeSymbol = [33, 47];
 
+console.log(codeUpper);
+
+//Adding EventListener to generate button
+
+document.querySelector("#generate").addEventListener("click", () =>{
+
+  
+
+
+
+
+
+
+
+
+
+})
