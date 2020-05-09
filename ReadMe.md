@@ -23,12 +23,12 @@ HTML - CSS Development Process
 * I began by adding color to the css file followed by increasing the size of the window where I would display the category options requested by the client.
 * Next I added a div to the HTML file with the character range information
 
-<img src = "Assets/screenShot_1.png>
+<img src = "Assets/screenShot_1.png" width=600>
 
 * Next I finished adding the character options 
 * Once all options were set, I added color and size to the characters via the CSS file
 
-<img src = "Assets/screenShot_3.png>
+<img src = "Assets/screenShot_3.png" width=600>
 
 JavaScript Development Process
 
@@ -41,11 +41,11 @@ JavaScript Development Process
 * Next step was to create the condition that would generate the password using the CharacterCode string and the formula of MathFloor(MathRandom) multiplied by the length of the RandSelector.
 * The last step was to push the generated password to the provided window in the HTML file.
 
-<img src = "Assets/screenShot_6.png>
+<img src = "Assets/screenShot_6.png" width=600>
 
 * During the development of the JavaScript file, I ran console.log to confirm if it was generating information of the four values requested by the client as well as recognizing the range of this values according to how they were set in the original variables.
 
-<img src = "Assets/screenShot_5.png>
+<img src = "Assets/screenShot_5.png" width=600>
 
 Project inspiration
 
