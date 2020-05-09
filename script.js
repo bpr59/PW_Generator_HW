@@ -12,7 +12,14 @@ console.log(codeUpper);
 
 document.querySelector("#generate").addEventListener("click", () =>{
 
-  
+//Setting variables and linking to corresponding ids in html file
+
+var length = document.querySelector("#length").Value;
+var upper = document.querySelector("#uppercase").checked;
+var lower = document.querySelector("#lowercase").checked;
+var numbers = document.querySelector("#numbers").checked;
+var symbols = document.querySelector("#symbols").checked;
+
 
 
 
