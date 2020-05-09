@@ -35,6 +35,18 @@ if (lower === true) {
   }
 }
 
+if (numbers === true) {
+  for (var i = codeNum[0]; i <= codeNum[1]; i++) {
+    randomSelector.push(i);
+  }
+}
+
+if (symbols === true) {
+  for (var i = codeSymbol[0]; i <= codeSymbol[1]; i++) {
+    randomSelector.push(i);
+  }
+}
+
 
 
 
