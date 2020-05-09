@@ -54,6 +54,14 @@ header {
   min-height: 300px;
 }
 
+.settings {
+  color: black;
+  font-weight: bolder;
+  padding-left: 2em;
+  line-height: 2em;
+  margin-bottom: 3px;
+}
+
 .card-footer {
   text-align: center;
 }
